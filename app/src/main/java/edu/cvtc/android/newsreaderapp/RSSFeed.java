@@ -19,6 +19,19 @@ public class RSSFeed {
 
     public RSSFeed() { items = new ArrayList<RSSItem>(); }
 
-    public void setTitle
+    public void setTitle(String title) { this.title = title; }
+
+    public String getTitle() { return title; }
+
+    public void setPubDate(String pubDate) { this.pubDate = pubDate; }
+
+    public  String getPubDate() { return pubDate; }
+
+    public int addItem(RSSItem item) {
+
+        items.add(item);
+        return items.size();
+
+    }
 
 }
