@@ -1,11 +1,16 @@
 package edu.cvtc.android.newsreaderapp;
 
+import android.annotation.SuppressLint;
+
+import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Date;
 
 /**
  * Created by Greg on 5/8/2017.
  */
+
 
 public class RSSFeed {
 
@@ -15,6 +20,7 @@ public class RSSFeed {
     private String pubDate = null;
     private ArrayList<RSSItem> items;
 
+    @SuppressLint("SimpleDateFormat")
     private SimpleDateFormat dateInFormat = new SimpleDateFormat("EEE, dd MMM yyyy HH:mm:ss Z");
 
     public RSSFeed() { items = new ArrayList<RSSItem>(); }
@@ -31,6 +37,31 @@ public class RSSFeed {
 
         items.add(item);
         return items.size();
+
+    }
+
+    public RSSItem getItem(int index) { return items.get(index); }
+
+    public ArrayList<RSSItem> getAllItems() { return items; }
+
+    public int getItemCount() { return items.size(); }
+
+    public long getPubDateMillis() {
+
+        Date date = new Date(0);
+
+        try {
+
+            date = dateInFormat.parse(pubDate.trim());
+
+        } catch (ParseException e) {
+
+            throw new RuntimeException(e);
+
+        }
+
+        long dateMillis = date.getTime();
+        return dateMillis;
 
     }
 
