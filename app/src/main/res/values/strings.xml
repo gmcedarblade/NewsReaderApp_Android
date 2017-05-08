@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">News Reader App</string>
+    <string name="item_title">Item title</string>
+    <string name="published_fri_07_sept_2012">Published: Fri 07 Sept 2012</string>
+    <string name="item_description">Item description</string>
+    <string name="read_more_on_the_web">Read more on the web</string>
+    <string name="refresh">Refresh</string>
+</resources>
