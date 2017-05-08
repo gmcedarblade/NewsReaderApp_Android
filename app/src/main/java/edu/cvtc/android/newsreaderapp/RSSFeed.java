@@ -11,7 +11,7 @@ import java.util.Date;
  * Created by Greg on 5/8/2017.
  */
 
-
+@SuppressLint("SimpleDateFormat")
 public class RSSFeed {
 
     public final static String ACTION_UPDATE_AVAILABLE = "edu.cvtc.android.newsreaderapp.ACTION_UPDATE_AVAILABLE";
@@ -20,7 +20,7 @@ public class RSSFeed {
     private String pubDate = null;
     private ArrayList<RSSItem> items;
 
-    @SuppressLint("SimpleDateFormat")
+
     private SimpleDateFormat dateInFormat = new SimpleDateFormat("EEE, dd MMM yyyy HH:mm:ss Z");
 
     public RSSFeed() { items = new ArrayList<RSSItem>(); }

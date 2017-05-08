@@ -68,6 +68,10 @@
         "source": "C:\\Users\\Greg\\.android\\build-cache\\beb13e1172573261cce9e9a30594adcda55d0745\\output\\res\\layout\\select_dialog_item_material.xml"
     },
     {
+        "merged": "C:\\Users\\Greg\\Desktop\\CVTC\\AndroidDev\\NewsReaderApp_gcedarblade\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_item.xml",
+        "source": "C:\\Users\\Greg\\Desktop\\CVTC\\AndroidDev\\NewsReaderApp_gcedarblade\\app\\src\\main\\res\\layout\\activity_item.xml"
+    },
+    {
         "merged": "C:\\Users\\Greg\\Desktop\\CVTC\\AndroidDev\\NewsReaderApp_gcedarblade\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
         "source": "C:\\Users\\Greg\\.android\\build-cache\\beb13e1172573261cce9e9a30594adcda55d0745\\output\\res\\layout\\abc_dialog_title_material.xml"
     },
@@ -154,6 +158,14 @@
     {
         "merged": "C:\\Users\\Greg\\Desktop\\CVTC\\AndroidDev\\NewsReaderApp_gcedarblade\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
         "source": "C:\\Users\\Greg\\.android\\build-cache\\beb13e1172573261cce9e9a30594adcda55d0745\\output\\res\\layout\\abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "C:\\Users\\Greg\\Desktop\\CVTC\\AndroidDev\\NewsReaderApp_gcedarblade\\app\\build\\intermediates\\res\\merged\\debug\\layout\\listview_item.xml",
+        "source": "C:\\Users\\Greg\\Desktop\\CVTC\\AndroidDev\\NewsReaderApp_gcedarblade\\app\\src\\main\\res\\layout\\listview_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Greg\\Desktop\\CVTC\\AndroidDev\\NewsReaderApp_gcedarblade\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_items.xml",
+        "source": "C:\\Users\\Greg\\Desktop\\CVTC\\AndroidDev\\NewsReaderApp_gcedarblade\\app\\src\\main\\res\\layout\\activity_items.xml"
     },
     {
         "merged": "C:\\Users\\Greg\\Desktop\\CVTC\\AndroidDev\\NewsReaderApp_gcedarblade\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines_media.xml",

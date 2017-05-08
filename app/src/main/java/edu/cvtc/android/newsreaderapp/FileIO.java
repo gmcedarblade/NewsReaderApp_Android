@@ -23,6 +23,7 @@ public class FileIO {
 
     private final String URL_STRING = "http://rss.cnn.com/rss/cnn_tech.rss";
     private final String FILENAME = "new_feed.xml";
+    private Context context = null;
 
     public FileIO (Context context) { this.context = context; }
 
@@ -71,8 +72,8 @@ public class FileIO {
             XMLReader xmlReader = parser.getXMLReader();
 
             // set content handler
-            RSSFeedHandler theRssHandler = New RSSFeedHandler();
-            xlmReader.setContentHandler(theRssHandler);
+            RSSFeedHandler theRssHandler = new RSSFeedHandler();
+            xmlReader.setContentHandler(theRssHandler);
 
             // read the file from internal storage
             FileInputStream inputStream = context.openFileInput(FILENAME);

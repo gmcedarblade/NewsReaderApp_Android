@@ -12,6 +12,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
+import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ListView;
 import android.widget.SimpleAdapter;
 import android.widget.TextView;
@@ -20,13 +21,13 @@ import android.widget.Toast;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
-import java.util.TooManyListenersException;
+
 
 /**
  * Created by Greg on 5/8/2017.
  */
 
-public class ItemsActivity extends Activity implements AdapterView.OnItemClickListener{
+public class ItemsActivity extends Activity implements OnItemClickListener{
 
     private NewsReaderApp app;
     private RSSFeed feed;
@@ -39,12 +40,10 @@ public class ItemsActivity extends Activity implements AdapterView.OnItemClickLi
     private NewFeedReceiver newFeedReceiver;
     private IntentFilter newFeedFilter;
 
-
-
     @Override
-    protected void OnCreate(Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState) {
 
-        super.OnCreate(savedInstanceState);
+        super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_items);
 
         titleTextView = (TextView) findViewById(R.id.titleTextView);
@@ -84,7 +83,7 @@ public class ItemsActivity extends Activity implements AdapterView.OnItemClickLi
 
         }
 
-        // register reciver for filter
+        // register receiver for filter
         registerReceiver(newFeedReceiver, newFeedFilter);
 
     }

@@ -96,12 +96,20 @@
         "source": "C:\\Users\\Greg\\.android\\build-cache\\beb13e1172573261cce9e9a30594adcda55d0745\\output\\res\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml"
     },
     {
+        "merged": "C:\\Users\\Greg\\Desktop\\CVTC\\AndroidDev\\NewsReaderApp_gcedarblade\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_launcher.png",
+        "source": "C:\\Users\\Greg\\Desktop\\CVTC\\AndroidDev\\NewsReaderApp_gcedarblade\\app\\src\\main\\res\\drawable\\ic_launcher.png"
+    },
+    {
         "merged": "C:\\Users\\Greg\\Desktop\\CVTC\\AndroidDev\\NewsReaderApp_gcedarblade\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
         "source": "C:\\Users\\Greg\\.android\\build-cache\\beb13e1172573261cce9e9a30594adcda55d0745\\output\\res\\drawable\\abc_list_selector_holo_light.xml"
     },
     {
         "merged": "C:\\Users\\Greg\\Desktop\\CVTC\\AndroidDev\\NewsReaderApp_gcedarblade\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_tile_bg.xml",
         "source": "C:\\Users\\Greg\\.android\\build-cache\\beb13e1172573261cce9e9a30594adcda55d0745\\output\\res\\drawable\\notification_tile_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Greg\\Desktop\\CVTC\\AndroidDev\\NewsReaderApp_gcedarblade\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_refresh.png",
+        "source": "C:\\Users\\Greg\\Desktop\\CVTC\\AndroidDev\\NewsReaderApp_gcedarblade\\app\\src\\main\\res\\drawable\\ic_refresh.png"
     },
     {
         "merged": "C:\\Users\\Greg\\Desktop\\CVTC\\AndroidDev\\NewsReaderApp_gcedarblade\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
